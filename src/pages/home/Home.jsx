@@ -9,7 +9,7 @@ const Home = () => {
   const[books,setBooks]= useState([])
   const fectchBooks = async()=>{
   const response =  await axios.get('http://localhost:3000/book')
-  console.log(response)
+  console.log(response.data.data)
   }
   useEffect(()=>{
     fectchBooks()
