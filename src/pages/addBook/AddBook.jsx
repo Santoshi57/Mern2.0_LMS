@@ -4,7 +4,7 @@ import React from 'react'
 const AddBook = () => {
   return (
     <div>
-      
+      <p>Addbook</p>
     </div>
   )
 }
